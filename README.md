@@ -1,132 +1,75 @@
-# edskill-hub
-Empowering youth and single mothers through AI-driven digital skills, volunteering, mentorship, and e-commerce support—helping users learn, create, and earn from home.
-EdSkill Hub
+# Welcome to OnSpace AI
 
-EdSkill Hub is an AI-powered empowerment platform designed to support youth and single mothers in learning digital skills, building AI-driven projects, and creating income opportunities from home.
-Our mission: Learn. Lead. Earn. Empower.
+Onspace AI empowers anyone to turn ideas into powerful AI applications in minutes—no coding required. Our free, no-code platform enables effortless creation of custom AI apps; simply describe your vision and our agentic AI handles the rest. The onspace-app, built with React Native and Expo, demonstrates this capability—integrating popular third-party libraries to deliver seamless cross-platform performance across iOS, Android, and Web environments.
 
-🌟 Purpose
+## Getting Started
 
-EdSkill Hub helps users gain practical digital skills, receive mentorship, and build real digital products they can sell online. The platform is built to be accessible, supportive, and beginner-friendly for anyone starting their digital journey.
+### 1. Install Dependencies
 
-🚀 Key Features
-🤖 Ask AI – Your Personal Mentor
-
-An AI-powered coach that provides:
-
-Digital skill guidance
-
-Entrepreneurship & e-commerce advice
-
-AI project support
-
-Motivation and mentorship
-
-Includes a Rate This Answer feedback system.
-
-📘 Digital Skills
-
-A dedicated space to explore:
-
-Remote work skills
-
-Freelancing basics
-
-Content creation
-
-AI digital tools
-
-🧰 My Projects
-
-Track and manage:
-
-Digital product ideas
-
-AI pilot projects
-
-E-commerce setup progress
-
-👤 Profile
-
-Saved responses
-
-Learning progress
-
-User settings
-
-📚 Advice Categories
-
-Career & Skill Development
-
-Entrepreneurship & E-commerce
-
-AI Projects & Tools
-
-Mentorship & Personal Growth
-
-Additional categories:
-
-Language Learning
-
-Relationships
-
-Custom Questions
-
-🧱 Tech Overview
-
-GPT-4-class LLM via API
-
-Cost-efficient prompt engineering
-
-Beginner-friendly tool suggestions
-
-Supports users with no tech background
-
-🗺️ Roadmap
-✔ Phase 1 – MVP
-
-Authentication
-
-Ask AI chat
-
-Answer rating
-
-Basic homepage & navigation
-
-⏳ Phase 2
-
-Skills section
-
-My Projects dashboard
-
-Guided learning paths
-
-⏳ Phase 3
-
-Digital product creation tools
-
-E-commerce integrations
-
-⏳ Phase 4
-
-Community mentorship
-
-Volunteer support features
-
-🛠️ Installation (Example)
-git clone https://github.com/yourusername/edskill-hub.git
-cd edskill-hub
+```bash
 npm install
-npm run dev
+# or
+yarn install
+```
 
-🤝 Contributing
+### 2. Start the Project
 
-Contributions are welcome! You can help improve features, UI, prompts, or documentation.
+- Start the development server (choose your platform):
 
-📄 License
+```bash
+npm run start         # Start Expo development server
+npm run android       # Launch Android emulator
+npm run ios           # Launch iOS simulator
+npm run web           # Start the web version
+```
 
-MIT License (or your chosen license).
+- Reset the project (clear cache, etc.):
 
-💛 Vision
+```bash
+npm run reset-project
+```
 
-EdSkill Hub exists to empower youth and single mothers with the skills and confidence needed to succeed in the digital world. Together, we build opportunities, independence, and growth.
+### 3. Lint the Code
+
+```bash
+npm run lint
+```
+
+## Main Dependencies
+
+- React Native: 0.79.4
+- React: 19.0.0
+- Expo: ~53.0.12
+- Expo Router: ~5.1.0
+- Supabase: ^2.50.0
+- Other commonly used libraries:  
+  - @expo/vector-icons  
+  - react-native-paper  
+  - react-native-calendars  
+  - lottie-react-native  
+  - react-native-webview  
+  - and more
+
+For a full list of dependencies, see [package.json](./package.json).
+
+## Development Tools
+
+- TypeScript: ~5.8.3
+- ESLint: ^9.25.0
+- @babel/core: ^7.25.2
+
+## Contributing
+
+1. Fork this repository
+2. Create a new branch (`git checkout -b main`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is private ("private": true). For collaboration inquiries, please contact the author.
+
+---
+
+Feel free to add project screenshots, API documentation, feature descriptions, or any other information as needed.
